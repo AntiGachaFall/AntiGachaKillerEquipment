@@ -1,0 +1,2 @@
+# AntiGachaKillerEquipment
+Stop AntiGacha!
