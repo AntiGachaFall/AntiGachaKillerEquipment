@@ -87,16 +87,12 @@ Email: {client.user.email}
       await decode(self, message, string=message.content[len(prefix)+7:])
     elif message.content.startswith(f"{prefix}rr"):
       await embede(self, message)
-    elif message.content.startswith(f"{prefix}subsearch"):
-      await subsearch(self, message)
     elif message.content.startswith(f"{prefix}newavatar"):
       await editavatar(self, message)
     elif message.content.startswith(f"{prefix}rpurge"):
       await rpurge(self, message)
     elif message.content.startswith(f"{prefix}editall"):
       await editall(self, message)
-    elif message.content.startswith(f"{prefix}e6"):
-      await e6(self, message)
     elif message.content == f"{prefix}namefuck":
       await fucktheguildname(self, message)
     elif message.content == f"{prefix}cnick":
